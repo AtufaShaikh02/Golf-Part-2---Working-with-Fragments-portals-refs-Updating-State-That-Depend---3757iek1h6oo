@@ -1,4 +1,4 @@
-[15:14, 9/7/2022] Asif Newton: import React, { Component, useState } from "react";
+import React, { Component, useState } from "react";
 
 function Town(props) {
   return <div id={"town" + (props.townId + 1)}>{props.townName.name}</div>;

@@ -1,12 +1,4 @@
-import React, { Component, useState } from "react";
-
-function Town(props) {
-  return <div id={"town" + (props.townId + 1)}>{props.townName.name}</div>;
-}
-
-export default Town;
-[15:14, 9/7/2022] Asif Newton: Town.js
-[15:18, 9/7/2022] Asif Newton: import React, { Component, useState, useEffect, useCallback } from "react";
+import React, { Component, useState, useEffect, useCallback } from "react";
 import "../styles/App.css";
 
 const App = () => {
